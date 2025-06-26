@@ -1,0 +1,6 @@
+/* Base styles for the whole document, setting font and removing default margin/padding */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
