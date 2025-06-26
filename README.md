@@ -1,4 +1,10 @@
+🔗 **Live Site**: [View on Vercel](https://pipeline-ecommerce-lsl4-3u8d3il1a-noah-ragans-projects.vercel.app/)
+
+
 # Advanced E-Commerce App with Firebase Integration
+
+![CI](https://github.com/MotherTheresa64/Advanced-Ecommerce-App-Firebase/actions/workflows/main.yml/badge.svg)
+
 
 This project is an extension of a basic e-commerce application, enhanced to integrate Firebase services for product management, user authentication, and order handling. It replaces a previously used FakeStore API with Firebase Firestore for all backend data management and Firebase Authentication for user sign-up and login functionalities.
 
