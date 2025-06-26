@@ -1,7 +1,41 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+  "compilerOptions": {
+    // ✨ Target modern JavaScript and modules
+    "target": "ESNext",
+    "module": "ESNext",
+
+    // ✨ Include modern browser & JS features
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+
+    // ✨ Core language features
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // ✨ Vite-specific settings
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    // ✨ Types for Vitest + Vite
+    "types": ["vitest", "vite/client"]
+  },
+
+  // ✨ Include your app source files
+  "include": ["src"],
+
+  // ✨ Exclude files that break the compiler or don't need to be processed
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "eslint.config.js",
+    "postcss.config.cjs",
+    "tailwind.config.js"
   ]
 }
