@@ -22,12 +22,12 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    // ✨ Types for Vitest + Vite
-    "types": ["vitest", "vite/client"]
+    // ✨ Types for Vitest globals + Vite client
+    "types": ["vitest/globals", "vite/client"]
   },
 
-  // ✨ Include your app source files
-  "include": ["src"],
+  // ✨ Include your app source files and tests for type checking
+  "include": ["src", "src/tests"],
 
   // ✨ Exclude files that break the compiler or don't need to be processed
   "exclude": [
